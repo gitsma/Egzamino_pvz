@@ -16,7 +16,6 @@ const AdminAds = () => {
   });
   const [test, setTest] = useState("");
 
-
   // console.log(formData);
   // console.log(test);
 
@@ -94,6 +93,9 @@ const AdminAds = () => {
                 src={item.img}
               />
               <Card.Body>
+                <h6 className="card-subtitle mb-2 text-body-secondary">
+                  Laukiama patvirtinimo
+                </h6>
                 <Card.Title className="border-bottom d-flex justify-content-center">
                   {item.title}
                 </Card.Title>
